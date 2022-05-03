@@ -1,17 +1,13 @@
 import React from "react";
-import Canvas from "./Canvas";
+import { StyledButton } from "../styles/SharedStyles.styled";
+import { HeroName, HeroTitle, LandingSection } from "../styles/Landing.styled";
 
-const Landing = () => {
+export default function Landing() {
   return (
-    <Canvas
-      style={{
-        position: "absolute",
-        width: "100%",
-        height: "100%",
-        background: "linear-gradient(#04138A, #1C1D25)",
-      }}
-    ></Canvas>
+    <LandingSection>
+      <HeroName>Gabriel Cobos</HeroName>
+      <HeroTitle>Web Developer</HeroTitle>
+      <StyledButton>Contact Me</StyledButton>
+    </LandingSection>
   );
-};
-
-export default Landing;
+}
