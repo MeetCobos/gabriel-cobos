@@ -3,5 +3,5 @@ module.exports = {
       title: `GabrielCobos`,
     siteUrl: `https://www.gabrielcobos.com`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: [`gatsby-plugin-styled-components`],
 };

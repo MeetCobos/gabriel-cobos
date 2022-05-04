@@ -13,6 +13,14 @@ export const StyledButton = styled.button`
 
 export const Section = styled.section`
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
-`
+`;
+
+export const AbsoluteCenter = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`;

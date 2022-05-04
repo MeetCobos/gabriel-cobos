@@ -6,6 +6,11 @@ import Landing from "../components/Landing";
 import Nav from "../components/Nav";
 import Trackmeet from "../components/Trackmeet";
 import GlobalStyles from "../styles/GlobalStyles.styled";
+import "@fontsource/montserrat/variable-italic.css";
+import "@fontsource/montserrat/variable.css";
+import "@fontsource/libre-baskerville/700.css";
+import "@fontsource/abril-fatface";
+import "@fontsource/bebas-neue";
 
 const IndexPage = () => {
   return (

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledNav = styled.nav`
+export const NavContainer = styled.nav`
   display: flex;
   position: sticky;
   height: 4rem;
@@ -9,10 +9,12 @@ export const StyledNav = styled.nav`
   align-items: center;
   margin-inline: 1rem;
   top: 0;
+  z-index: 2;
 `;
 
-export const NavLogo = styled.span`
-  font-family: "Libre Baskerville Bold", serif;
+export const NavLogo = styled.h1`
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
   font-size: 1.125rem;
 `;
 
@@ -20,7 +22,10 @@ export const NavIcons = styled.ul`
   & > li {
     list-style: none;
     display: inline-block;
-    font-family: "Montserrat Var", sans-serif;
+  }
+
+  & p {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.125rem;
     font-weight: 600;
   }

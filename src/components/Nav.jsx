@@ -1,12 +1,12 @@
 import React from "react";
-import linkedIn from "../assets/images/LinkedInLogo.svg";
-import gitHub from "../assets/images/GitHubLogo.svg";
-import twitter from "../assets/images/TwitterLogo.svg";
-import { StyledNav, NavLogo, NavIcons } from "../styles/Nav.styled";
+import linkedIn from "../images/LinkedInLogo.svg";
+import gitHub from "../images/GitHubLogo.svg";
+import twitter from "../images/TwitterLogo.svg";
+import { NavContainer, NavLogo, NavIcons } from "../styles/Nav.styled";
 
 export default function Nav() {
   return (
-    <StyledNav>
+    <NavContainer>
       <div>
         <NavLogo>Gabriel Cobos</NavLogo>
       </div>
@@ -21,11 +21,17 @@ export default function Nav() {
           <li>
             <img src={twitter} alt="Twitter Logo"></img>
           </li>
-          <li>Works</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>
+            <p>Works</p>
+          </li>
+          <li>
+            <p>About</p>
+          </li>
+          <li>
+            <p>Contact</p>
+          </li>
         </NavIcons>
       </div>
-    </StyledNav>
+    </NavContainer>
   );
 }

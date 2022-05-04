@@ -14,10 +14,17 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/abril-fatface": "^4.5.7",
+    "@fontsource/bebas-neue": "^4.5.7",
+    "@fontsource/libre-baskerville": "^4.5.8",
+    "@fontsource/montserrat": "^4.5.10",
     "gatsby": "^4.6.2",
-    "gatsby-plugin-sass": "^5.7.0",
+    "gatsby-plugin-styled-components": "^5.13.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7"
   }
 }
