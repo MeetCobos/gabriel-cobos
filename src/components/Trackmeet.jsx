@@ -1,36 +1,30 @@
 import React from "react";
 import TrackmeetHero from "../images/Trackmeet.svg";
 import TrackmeetLogoImg from "../images/TrackmeetLogo.svg";
-import { Section, AbsoluteCenter } from "../styles/SharedStyles.styled";
 import {
-  TrackmeetImg,
-  TrackmeetLogo,
-  TrackmeetButton,
+  AbsoluteCenter,
+  CenteredButton,
   InnerContainer,
-  ImageFooter,
-} from "../styles/Trackmeet.styled";
+  PageImg,
+  Section,
+} from "../styles/SharedStyles.styled";
+import { TrackmeetLogo } from "../styles/Trackmeet.styled";
+import ImageFooter from "./sub-components/ImageFooter";
 
 export default function Trackmeet() {
   return (
     <Section>
       <InnerContainer>
-        <TrackmeetImg src={TrackmeetHero} alt="Trackmeet Img"></TrackmeetImg>
-        <ImageFooter>
-          <div>
-            <h1>Team Cylon</h1>
-            <h2>Modernizing the military.</h2>
-          </div>
-          <div>
-            <p>01</p>
-          </div>
-        </ImageFooter>
+        <PageImg src={TrackmeetHero} alt="Trackmeet Image" />
+        <ImageFooter
+          heading="Team Cylon"
+          sub-heading="Modernizing The Military"
+          page-num="01"
+        />
       </InnerContainer>
       <AbsoluteCenter>
-        <TrackmeetLogo
-          src={TrackmeetLogoImg}
-          alt="Trackmeet Logo"
-        ></TrackmeetLogo>
-        <TrackmeetButton>See More</TrackmeetButton>
+        <TrackmeetLogo src={TrackmeetLogoImg} alt="Trackmeet Logo" />
+        <CenteredButton>See More</CenteredButton>
       </AbsoluteCenter>
     </Section>
   );

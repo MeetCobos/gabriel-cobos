@@ -11,6 +11,12 @@ export const StyledButton = styled.button`
   color: inherit;
 `;
 
+export const CenteredButton = styled(StyledButton)`
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+`;
+
 export const Section = styled.section`
   display: flex;
   position: relative;
@@ -19,8 +25,25 @@ export const Section = styled.section`
 `;
 
 export const AbsoluteCenter = styled.div`
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+`;
+
+export const InnerContainer = styled.div`
+  position: absolute;
+`;
+
+export const PageLabel = styled.label`
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+`;
+
+export const PageImg = styled.img`
+  height: 86vh;
+  filter: blur(3.5px);
+  background-color: blue;
 `;
