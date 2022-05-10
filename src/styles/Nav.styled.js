@@ -12,7 +12,7 @@ export const NavContainer = styled.nav`
   z-index: 2;
 `;
 
-export const NavLogo = styled.h1`
+export const NavLogo = styled.title`
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-size: 1.125rem;

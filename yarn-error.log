@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\cobos\.yarn\releases\yarn-1.22.10.cjs add gatsby-plugin-react-helmet react-helmet
+
+PATH: 
+  C:\Users\cobos\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\cobos\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\flyway-8.0.2;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.12\bin;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\cobos\AppData\Local\Microsoft\WindowsApps;C:\Users\cobos\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cobos\AppData\Local\GitHubDesktop\bin;C:\Users\cobos\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\cobos\Code\gabriel-cobos\node_modules\@parcel\watcher\prebuilds\win32-x64\node.napi.glibc.node'
+
+npm manifest: 
+  {
+    "name": "gabriel-cobos",
+    "version": "1.0.0",
+    "private": true,
+    "description": "GabrielCobos",
+    "author": "BearLobos",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "start": "gatsby develop -p 3000",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "@fontsource/abril-fatface": "^4.5.7",
+      "@fontsource/bebas-neue": "^4.5.7",
+      "@fontsource/libre-baskerville": "^4.5.8",
+      "@fontsource/montserrat": "^4.5.10",
+      "gatsby": "^4.6.2",
+      "gatsby-plugin-styled-components": "^5.13.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "styled-components": "^5.3.5"
+    },
+    "devDependencies": {
+      "babel-plugin-styled-components": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

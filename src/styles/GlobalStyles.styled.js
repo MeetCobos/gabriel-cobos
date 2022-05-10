@@ -6,6 +6,9 @@ const GlobalStyles = createGlobalStyle`
   padding: 0;
 }
 
+html:lang(en) {
+}
+
 body {
   width: 100%;
   height: 100vh;

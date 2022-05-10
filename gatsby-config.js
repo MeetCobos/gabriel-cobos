@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-      title: `GabrielCobos`,
-    siteUrl: `https://www.gabrielcobos.com`
+    title: `GabrielCobos`,
+    siteUrl: `https://www.gabrielcobos.com`,
   },
-  plugins: [`gatsby-plugin-styled-components`],
+  plugins: [`gatsby-plugin-styled-components`, `gatsby-plugin-react-helmet`],
 };
