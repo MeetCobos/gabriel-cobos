@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Section } from "./SharedStyles.styled";
 
 export const LandingSection = styled(Section)`
-  height: 100%;
   flex-direction: column;
 
   > * {

@@ -9,6 +9,15 @@ export const StyledButton = styled.button`
   background-color: #f10000;
   border: none;
   color: inherit;
+  cursor: pointer;
+
+  &:hover {
+    background-color: hsl(0, 100%, 40%);
+  }
+
+  &:active {
+    background-color: hsl(0, 100%, 33%);
+  }
 `;
 
 export const CenteredButton = styled(StyledButton)`
@@ -33,7 +42,7 @@ export const AbsoluteCenter = styled.div`
   transform: translate(-50%, -50%);
 `;
 
-export const InnerContainer = styled.div`
+export const AbsoluteContainer = styled.div`
   position: absolute;
 `;
 

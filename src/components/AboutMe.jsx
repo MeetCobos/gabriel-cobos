@@ -3,7 +3,7 @@ import LaPalms from "../images/LaPalms.svg";
 import {
   AbsoluteCenter,
   CenteredButton,
-  InnerContainer,
+  AbsoluteContainer,
   PageImg,
   PageLabel,
   Section,
@@ -13,14 +13,14 @@ import ImageFooter from "./sub-components/ImageFooter";
 export default function AboutMe() {
   return (
     <Section>
-      <InnerContainer>
+      <AbsoluteContainer>
         <PageImg src={LaPalms} alt="About Me Image" />
         <ImageFooter
           heading="About Me"
           sub-heading="The Man, The Myth, The Legend"
           page-num="02"
         />
-      </InnerContainer>
+      </AbsoluteContainer>
       <AbsoluteCenter>
         <PageLabel>SOFTWARE ENGINEER</PageLabel>
         <CenteredButton>See More</CenteredButton>

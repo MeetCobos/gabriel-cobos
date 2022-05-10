@@ -4,7 +4,7 @@ import TrackmeetLogoImg from "../images/TrackmeetLogo.svg";
 import {
   AbsoluteCenter,
   CenteredButton,
-  InnerContainer,
+  AbsoluteContainer,
   PageImg,
   Section,
 } from "../styles/SharedStyles.styled";
@@ -14,14 +14,14 @@ import ImageFooter from "./sub-components/ImageFooter";
 export default function Trackmeet() {
   return (
     <Section>
-      <InnerContainer>
+      <AbsoluteContainer>
         <PageImg src={TrackmeetHero} alt="Trackmeet Image" />
         <ImageFooter
           heading="Team Cylon"
           sub-heading="Modernizing The Military"
           page-num="01"
         />
-      </InnerContainer>
+      </AbsoluteContainer>
       <AbsoluteCenter>
         <TrackmeetLogo src={TrackmeetLogoImg} alt="Trackmeet Logo" />
         <CenteredButton>See More</CenteredButton>

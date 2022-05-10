@@ -3,7 +3,7 @@ import ContactMeImg from "../images/ContactMe.svg";
 import {
   AbsoluteCenter,
   CenteredButton,
-  InnerContainer,
+  AbsoluteContainer,
   PageImg,
   PageLabel,
   Section,
@@ -13,14 +13,14 @@ import ImageFooter from "./sub-components/ImageFooter";
 export default function ContactMe() {
   return (
     <Section>
-      <InnerContainer>
+      <AbsoluteContainer>
         <PageImg src={ContactMeImg} alt="Contact Me Image" />
         <ImageFooter
           heading="Contact"
           sub-heading="Illusive, but I'll Answer Your Call"
           page-num="03"
         />
-      </InnerContainer>
+      </AbsoluteContainer>
       <AbsoluteCenter>
         <PageLabel>GET IN TOUCH</PageLabel>
         <CenteredButton>See More</CenteredButton>
