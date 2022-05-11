@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.0.7"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/MeetCobos/gabriel-cobos.git",
+  "license": "MIT"
 }
