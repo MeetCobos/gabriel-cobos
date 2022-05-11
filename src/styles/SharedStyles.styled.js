@@ -37,6 +37,7 @@ export const AbsoluteCenter = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

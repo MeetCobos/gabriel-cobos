@@ -32,7 +32,7 @@ export default IndexPage;
 
 const MainContainer = styled.div`
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(#04138a, #1c1d25);
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -53,7 +53,7 @@ const MainContainer = styled.div`
   }
 
   & > section {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     scroll-snap-align: start;
   }

@@ -3,6 +3,7 @@ import { Section } from "./SharedStyles.styled";
 
 export const LandingSection = styled(Section)`
   flex-direction: column;
+  text-align: center;
 
   > * {
     &:last-child {

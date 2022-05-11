@@ -5,7 +5,7 @@ import { HeroName, HeroTitle, LandingSection } from "../styles/Landing.styled";
 export default function Landing() {
   return (
     <LandingSection>
-      <HeroName>Gabriel Cobos</HeroName>
+      <HeroName id="landing">Gabriel Cobos</HeroName>
       <HeroTitle>Web Developer</HeroTitle>
       <StyledButton>Contact Me</StyledButton>
     </LandingSection>

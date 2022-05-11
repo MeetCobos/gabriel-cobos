@@ -22,7 +22,7 @@ export default function ContactMe() {
         />
       </AbsoluteContainer>
       <AbsoluteCenter>
-        <PageLabel>GET IN TOUCH</PageLabel>
+        <PageLabel id="contact-me">GET IN TOUCH</PageLabel>
         <CenteredButton>See More</CenteredButton>
       </AbsoluteCenter>
     </Section>

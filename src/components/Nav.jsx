@@ -1,34 +1,64 @@
 import React from "react";
-import linkedIn from "../images/LinkedInLogo.svg";
 import gitHub from "../images/GitHubLogo.svg";
+import linkedIn from "../images/LinkedInLogo.svg";
 import twitter from "../images/TwitterLogo.svg";
-import { NavContainer, NavLogo, NavIcons } from "../styles/Nav.styled";
+import {
+  NavAnchor,
+  NavContainer,
+  NavIcons,
+  NavLink,
+  NavLogo,
+} from "../styles/Nav.styled";
 
 export default function Nav() {
   return (
     <NavContainer>
       <div>
-        <NavLogo>Gabriel Cobos</NavLogo>
+        <NavLogo href="#landing">Gabriel Cobos</NavLogo>
       </div>
       <div>
         <NavIcons>
           <li>
-            <img src={linkedIn} alt="LinkedIn Logo"></img>
+            <a
+              href="https://www.linkedin.com/in/gabriel-cobos/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={linkedIn} alt="LinkedIn Logo"></img>
+            </a>
           </li>
           <li>
-            <img src={gitHub} alt="GitHub Logo"></img>
+            <a
+              href="https://github.com/MeetCobos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={gitHub} alt="GitHub Logo"></img>
+            </a>
           </li>
           <li>
-            <img src={twitter} alt="Twitter Logo"></img>
+            <a
+              href="https://twitter.com/MeetCobos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={twitter} alt="Twitter Logo"></img>
+            </a>
           </li>
           <li>
-            <p>Works</p>
+            <NavLink to="/Works">
+              <p>Works</p>
+            </NavLink>
           </li>
           <li>
-            <p>About</p>
+            <NavLink to="/About">
+              <p>About</p>
+            </NavLink>
           </li>
           <li>
-            <p>Contact</p>
+            <NavAnchor href="#contact-me">
+              <p>Contact</p>
+            </NavAnchor>
           </li>
         </NavIcons>
       </div>

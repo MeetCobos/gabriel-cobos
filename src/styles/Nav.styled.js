@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import styled from "styled-components";
 
 export const NavContainer = styled.nav`
@@ -12,10 +13,20 @@ export const NavContainer = styled.nav`
   z-index: 2;
 `;
 
-export const NavLogo = styled.title`
+export const NavLink = styled(Link)`
+  text-decoration: none;
+`;
+
+export const NavAnchor = styled.a`
+  text-decoration: none;
+`;
+
+export const NavLogo = styled.a`
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-size: 1.125rem;
+  color: white;
+  text-decoration: none;
 `;
 
 export const NavIcons = styled.ul`
@@ -28,6 +39,7 @@ export const NavIcons = styled.ul`
     font-family: "Montserrat", sans-serif;
     font-size: 1.125rem;
     font-weight: 600;
+    color: white;
   }
 
   & > li:not(:first-child) {
