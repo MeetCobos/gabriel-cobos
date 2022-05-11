@@ -19,7 +19,6 @@
     "@fontsource/libre-baskerville": "^4.5.8",
     "@fontsource/montserrat": "^4.5.10",
     "gatsby": "^4.6.2",
-    "gatsby-cli": "^4.14.0",
     "gatsby-plugin-styled-components": "^5.13.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
