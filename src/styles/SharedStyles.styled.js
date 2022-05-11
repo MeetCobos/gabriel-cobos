@@ -55,5 +55,4 @@ export const PageLabel = styled.label`
 export const PageImg = styled.img`
   height: 86vh;
   filter: blur(3.5px);
-  background-color: blue;
 `;
