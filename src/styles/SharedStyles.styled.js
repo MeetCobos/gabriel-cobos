@@ -8,7 +8,7 @@ export const StyledButton = styled.button`
   font-weight: 600;
   background-color: #f10000;
   border: none;
-  color: inherit;
+  color: white;
   cursor: pointer;
 
   &:hover {
@@ -21,9 +21,7 @@ export const StyledButton = styled.button`
 `;
 
 export const CenteredButton = styled(StyledButton)`
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-inline: auto;
 `;
 
 export const Section = styled.section`

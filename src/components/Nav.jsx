@@ -6,13 +6,12 @@ import {
   NavAnchor,
   NavContainer,
   NavIcons,
-  NavLink,
   NavLogo,
 } from "../styles/Nav.styled";
 
-export default function Nav() {
+export default function Nav({ black }) {
   return (
-    <NavContainer>
+    <NavContainer black={black}>
       <div>
         <NavLogo href="#landing">Gabriel Cobos</NavLogo>
       </div>
@@ -46,14 +45,14 @@ export default function Nav() {
             </a>
           </li>
           <li>
-            <NavLink to="/Works">
+            <NavAnchor href="#works">
               <p>Works</p>
-            </NavLink>
+            </NavAnchor>
           </li>
           <li>
-            <NavLink to="/About">
+            <NavAnchor href="#about">
               <p>About</p>
-            </NavLink>
+            </NavAnchor>
           </li>
           <li>
             <NavAnchor href="#contact-me">

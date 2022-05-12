@@ -5,11 +5,11 @@ import "@fontsource/montserrat/variable-italic.css";
 import "@fontsource/montserrat/variable.css";
 import * as React from "react";
 import styled from "styled-components";
-import AboutMe from "../components/AboutMe";
-import ContactMe from "../components/ContactMe";
-import Landing from "../components/Landing";
+import AboutMe from "../components/AboutMeCard";
+import ContactMe from "../components/ContactMeCard";
+import Landing from "../components/LandingCard";
 import Nav from "../components/Nav";
-import Trackmeet from "../components/Trackmeet";
+import Trackmeet from "../components/TrackmeetCard";
 import GlobalStyles from "../styles/GlobalStyles.styled";
 import { AbsoluteContainer } from "../styles/SharedStyles.styled";
 

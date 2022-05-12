@@ -2,8 +2,8 @@ import React from "react";
 import ContactMeImg from "../images/ContactMe.svg";
 import {
   AbsoluteCenter,
-  CenteredButton,
   AbsoluteContainer,
+  CenteredButton,
   PageImg,
   PageLabel,
   Section,

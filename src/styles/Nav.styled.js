@@ -1,24 +1,21 @@
-import { Link } from "gatsby";
 import styled from "styled-components";
 
 export const NavContainer = styled.nav`
+  background-color: ${({ black }) => black && "black"};
   display: flex;
   position: sticky;
   height: 4rem;
   width: calc(100vw - 2rem);
   justify-content: space-between;
   align-items: center;
-  margin-inline: 1rem;
+  padding-inline: 1rem;
   top: 0;
   z-index: 2;
 `;
 
-export const NavLink = styled(Link)`
-  text-decoration: none;
-`;
-
 export const NavAnchor = styled.a`
   text-decoration: none;
+  color: white;
 `;
 
 export const NavLogo = styled.a`

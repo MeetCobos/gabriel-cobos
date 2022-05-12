@@ -1,12 +1,13 @@
+import { Link } from "gatsby";
 import React from "react";
 import LaPalms from "../images/LaPalms.svg";
 import {
   AbsoluteCenter,
-  CenteredButton,
   AbsoluteContainer,
   PageImg,
   PageLabel,
   Section,
+  StyledButton,
 } from "../styles/SharedStyles.styled";
 import ImageFooter from "./sub-components/ImageFooter";
 
@@ -22,8 +23,12 @@ export default function AboutMe() {
         />
       </AbsoluteContainer>
       <AbsoluteCenter>
-        <PageLabel>SOFTWARE ENGINEER</PageLabel>
-        <CenteredButton>See More</CenteredButton>
+        <PageLabel id="about">SOFTWARE ENGINEER</PageLabel>
+        <div>
+          <Link to="/about">
+            <StyledButton>See More</StyledButton>
+          </Link>
+        </div>
       </AbsoluteCenter>
     </Section>
   );

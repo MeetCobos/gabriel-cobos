@@ -37,6 +37,10 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
 }
+
+img {
+  max-width: 100%;
+}
 `;
 
 export default GlobalStyles;
