@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import LaPalms from "../images/LaPalms.svg";
+import LaPalms from "../../images/LaPalms.svg";
 import {
   AbsoluteCenter,
   AbsoluteContainer,
@@ -8,7 +8,7 @@ import {
   PageLabel,
   Section,
   StyledButton,
-} from "../styles/SharedStyles.styled";
+} from "../../styles/SharedStyles.styled";
 import ImageFooter from "./sub-components/ImageFooter";
 
 export default function AboutMe() {

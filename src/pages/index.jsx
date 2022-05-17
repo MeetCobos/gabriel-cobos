@@ -5,26 +5,28 @@ import "@fontsource/montserrat/variable-italic.css";
 import "@fontsource/montserrat/variable.css";
 import * as React from "react";
 import styled from "styled-components";
-import AboutMe from "../components/AboutMeCard";
-import ContactMe from "../components/ContactMeCard";
-import Landing from "../components/LandingCard";
+import AboutMe from "../components/index/AboutMeCard";
+import ContactMe from "../components/index/ContactMeCard";
+import Landing from "../components/index/LandingCard";
 import Nav from "../components/Nav";
-import Trackmeet from "../components/TrackmeetCard";
+import Trackmeet from "../components/index/TrackmeetCard";
 import GlobalStyles from "../styles/GlobalStyles.styled";
 import { AbsoluteContainer } from "../styles/SharedStyles.styled";
 
 const IndexPage = () => {
   return (
-    <MainContainer>
+    <>
       <GlobalStyles />
-      <AbsoluteContainer>
-        <Nav />
-      </AbsoluteContainer>
-      <Landing />
-      <Trackmeet />
-      <AboutMe />
-      <ContactMe />
-    </MainContainer>
+      <MainContainer>
+        <AbsoluteContainer>
+          <Nav />
+        </AbsoluteContainer>
+        <Landing />
+        <Trackmeet />
+        <AboutMe />
+        <ContactMe />
+      </MainContainer>
+    </>
   );
 };
 
@@ -32,29 +34,13 @@ export default IndexPage;
 
 const MainContainer = styled.div`
   height: 100vh;
-  width: 100%;
   background: linear-gradient(#04138a, #1c1d25);
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  scroll-behavior: smooth;
-
-  &::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: grey;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-  }
+  color: white;
 
   & > section {
     height: 100vh;
-    width: 100%;
     scroll-snap-align: start;
   }
 `;

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Nav from "../components/Nav";
+import Landing from "../components/trackmeet/Landing";
 import GlobalStyles from "../styles/GlobalStyles.styled";
 
 export default function Trackmeet() {
@@ -8,6 +9,7 @@ export default function Trackmeet() {
     <MainContainer>
       <GlobalStyles />
       <Nav black />
+      <Landing />
     </MainContainer>
   );
 }

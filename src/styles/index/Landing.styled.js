@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Section } from "./SharedStyles.styled";
+import { Section } from "../SharedStyles.styled";
 
 export const LandingSection = styled(Section)`
   flex-direction: column;

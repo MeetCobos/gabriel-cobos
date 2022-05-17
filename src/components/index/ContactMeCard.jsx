@@ -1,5 +1,5 @@
 import React from "react";
-import ContactMeImg from "../images/ContactMe.svg";
+import ContactMeImg from "../../images/ContactMe.svg";
 import {
   AbsoluteCenter,
   AbsoluteContainer,
@@ -7,7 +7,7 @@ import {
   PageImg,
   PageLabel,
   Section,
-} from "../styles/SharedStyles.styled";
+} from "../../styles/SharedStyles.styled";
 import ImageFooter from "./sub-components/ImageFooter";
 
 export default function ContactMe() {
@@ -23,7 +23,9 @@ export default function ContactMe() {
       </AbsoluteContainer>
       <AbsoluteCenter>
         <PageLabel id="contact-me">GET IN TOUCH</PageLabel>
-        <CenteredButton>Contact Me</CenteredButton>
+        <a href="mailto:cobos@gabrielcobos.com">
+          <CenteredButton>Contact Me</CenteredButton>
+        </a>
       </AbsoluteCenter>
     </Section>
   );

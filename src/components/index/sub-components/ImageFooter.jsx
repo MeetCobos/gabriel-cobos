@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageFooterContainer } from "../../styles/ImageFooter.styled";
+import { ImageFooterContainer } from "../../../styles/index/ImageFooter.styled";
 
 export default function ImageFooter({
   heading,

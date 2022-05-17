@@ -7,7 +7,7 @@ import {
   NavContainer,
   NavIcons,
   NavLogo,
-} from "../styles/Nav.styled";
+} from "../styles/index/Nav.styled";
 
 export default function Nav({ black }) {
   return (

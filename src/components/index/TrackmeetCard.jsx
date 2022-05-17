@@ -1,15 +1,15 @@
 import { Link } from "gatsby";
 import React from "react";
-import TrackmeetHero from "../images/Trackmeet.svg";
-import TrackmeetLogoImg from "../images/TrackmeetLogo.svg";
+import TrackmeetHero from "../../images/Trackmeet.svg";
+import TrackmeetLogoImg from "../../images/TrackmeetLogo.svg";
 import {
   AbsoluteCenter,
   AbsoluteContainer,
   PageImg,
   Section,
   StyledButton,
-} from "../styles/SharedStyles.styled";
-import { TrackmeetLogo } from "../styles/Trackmeet.styled";
+} from "../../styles/SharedStyles.styled";
+import { TrackmeetLogo } from "../../styles/index/TrackmeetCard.styled";
 import ImageFooter from "./sub-components/ImageFooter";
 
 export default function Trackmeet() {

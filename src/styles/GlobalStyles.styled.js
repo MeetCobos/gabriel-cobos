@@ -4,16 +4,26 @@ const GlobalStyles = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: gray black;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: grey;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
 }
 
 html:lang(en) {
-}
-
-body {
-  width: 100%;
-  height: 100vh;
-  color: white;
-  position: absolute;
 }
 
 h1 {
