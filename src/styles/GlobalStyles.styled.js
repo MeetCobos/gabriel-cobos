@@ -20,7 +20,6 @@ const GlobalStyles = createGlobalStyle`
 *::-webkit-scrollbar-thumb {
   background-color: grey;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
 }
 
 html:lang(en) {

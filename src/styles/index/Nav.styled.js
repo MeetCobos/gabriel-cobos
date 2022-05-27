@@ -2,15 +2,19 @@ import styled from "styled-components";
 
 export const NavContainer = styled.nav`
   background-color: ${({ black }) => black && "black"};
-  display: flex;
   position: sticky;
   height: 4rem;
-  width: calc(100vw - 2rem);
+  width: 100vw;
+  max-width: 100%;
+  z-index: 2;
+`;
+
+export const NavContent = styled.div`
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 1rem;
-  top: 0;
-  z-index: 2;
+  margin-inline: 1rem;
+  height: 100%;
 `;
 
 export const NavAnchor = styled.a`

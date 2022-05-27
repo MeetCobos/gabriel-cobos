@@ -1,19 +1,28 @@
 import React from "react";
 import {
   LandingContainer,
+  LogoButtonContainer,
+  TrackmeetLandingImg,
   TrackmeetLogoVert,
-} from "../../styles/trackmeet/Landing";
+} from "../../styles/trackmeet/Landing.styled";
 import TrackmeetLogoVertSvg from "../../images/TrackmeetLogoVert.svg";
 import TrackmeetLrg from "../../images/TrackmeetLrg.svg";
+import { StyledButton } from "../../styles/SharedStyles.styled";
 
 export default function Landing() {
   return (
     <LandingContainer>
-      <TrackmeetLogoVert
-        src={TrackmeetLogoVertSvg}
-        alt="Trackmeet Logo"
-      ></TrackmeetLogoVert>
-      <img src={TrackmeetLrg} alt="Trackmeet Landing Img"></img>
+      <LogoButtonContainer>
+        <TrackmeetLogoVert
+          src={TrackmeetLogoVertSvg}
+          alt="Trackmeet Logo"
+        ></TrackmeetLogoVert>
+        <StyledButton>Website</StyledButton>
+      </LogoButtonContainer>
+      <TrackmeetLandingImg
+        src={TrackmeetLrg}
+        alt="Trackmeet Landing Img"
+      ></TrackmeetLandingImg>
     </LandingContainer>
   );
 }
