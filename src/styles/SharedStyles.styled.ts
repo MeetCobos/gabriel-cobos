@@ -54,3 +54,10 @@ export const PageImg = styled.img`
   height: 86vh;
   filter: blur(3.5px);
 `;
+
+export const LandingContainer = styled.div`
+  display: flex;
+  background: linear-gradient(#04138a, #1c1d25);
+  align-items: center;
+  justify-content: flex-end;
+`;

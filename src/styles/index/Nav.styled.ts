@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NavContainer = styled.nav`
+export const NavContainer = styled.nav<{ black: string }>`
   background-color: ${({ black }) => black && "black"};
   position: sticky;
   height: 4rem;

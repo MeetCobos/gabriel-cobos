@@ -1,13 +1,15 @@
 import React from "react";
 import {
-  LandingContainer,
   LogoButtonContainer,
   TrackmeetLandingImg,
   TrackmeetLogoVert,
 } from "../../styles/trackmeet/Landing.styled";
 import TrackmeetLogoVertSvg from "../../images/TrackmeetLogoVert.svg";
 import TrackmeetLrg from "../../images/TrackmeetLrg.svg";
-import { StyledButton } from "../../styles/SharedStyles.styled";
+import {
+  LandingContainer,
+  StyledButton,
+} from "../../styles/SharedStyles.styled";
 
 export default function Landing() {
   return (
