@@ -1,15 +1,26 @@
 import React from "react";
-import Headshot from "../../images/headshot.svg";
+import Headshot from "../../images/Headshot.svg";
 import LaPalms from "../../images/LaPalms.svg";
+import SoftwareEngineer from "../../images/SoftwareEngineer.svg";
+import {
+  ImageGrid,
+  StyledHeadshot,
+  StyledLaPalms,
+} from "../../styles/about/Landing.styled";
 import { LandingContainer } from "../../styles/SharedStyles.styled";
 
 export default function Landing() {
   return (
     <div>
       <LandingContainer>
-        <h1>Software Engineer</h1>
-        <img src={LaPalms} alt="LA Palms"></img>
-        <img src={Headshot} alt="Gabriel Cobos Headshot"></img>
+        <img src={SoftwareEngineer} alt="Software Engineer"></img>
+        <ImageGrid>
+          <StyledLaPalms src={LaPalms} alt="LA Palms"></StyledLaPalms>
+          <StyledHeadshot
+            src={Headshot}
+            alt="Gabriel Cobos Headshot"
+          ></StyledHeadshot>
+        </ImageGrid>
       </LandingContainer>
     </div>
   );

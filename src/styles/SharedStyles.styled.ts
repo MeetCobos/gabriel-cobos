@@ -60,4 +60,5 @@ export const LandingContainer = styled.div`
   background: linear-gradient(#04138a, #1c1d25);
   align-items: center;
   justify-content: flex-end;
+  gap: 0.5rem;
 `;
