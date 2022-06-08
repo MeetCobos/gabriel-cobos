@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../../images/Headshot.svg";
+import Headshot from "../../images/HeadshotPhoto.svg";
 import LaPalms from "../../images/LaPalms.svg";
 import SoftwareEngineer from "../../images/SoftwareEngineer.svg";
 import {
