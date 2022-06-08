@@ -10,7 +10,7 @@ import {
   NavLogo,
 } from "../styles/index/Nav.styled";
 
-export default function Nav({ black }) {
+export default function Nav({ black }: { black?: boolean }) {
   return (
     <NavContainer black={black}>
       <NavContent>
