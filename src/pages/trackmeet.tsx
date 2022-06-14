@@ -10,7 +10,7 @@ export default function Trackmeet() {
   return (
     <MainContainer>
       <GlobalStyles />
-      <Nav black />
+      <Nav black toLanding="/#landing" toWorks="/#works" toAbout="/#about" toContact="/#contact-me"/>
       <Landing />
       <Content />
       <Footer />

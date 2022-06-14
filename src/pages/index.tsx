@@ -19,7 +19,7 @@ const IndexPage = () => {
       <GlobalStyles />
       <MainContainer>
         <AbsoluteContainer>
-          <Nav />
+          <Nav toLanding="#landing" toWorks="#works" toAbout="#about" toContact="#contact-me"/>
         </AbsoluteContainer>
         <Landing />
         <Trackmeet />

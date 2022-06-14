@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import gitHub from "../images/GitHubLogo.svg";
 import linkedIn from "../images/LinkedInLogo.svg";
@@ -10,12 +11,20 @@ import {
   NavLogo,
 } from "../styles/index/Nav.styled";
 
-export default function Nav({ black }: { black?: boolean }) {
+type NavProps = {
+  black?: boolean,
+  toLanding: string,
+  toWorks: string,
+  toAbout: string,
+  toContact: string,
+}
+
+export default function Nav({ black, toLanding, toWorks, toAbout, toContact }: NavProps) {
   return (
     <NavContainer black={black}>
       <NavContent>
         <div>
-          <NavLogo href="#landing">Gabriel Cobos</NavLogo>
+          <NavLogo to={toLanding}>Gabriel Cobos</NavLogo>
         </div>
         <div>
           <NavIcons>
@@ -47,17 +56,17 @@ export default function Nav({ black }: { black?: boolean }) {
               </a>
             </li>
             <li>
-              <NavAnchor href="#works">
+              <NavAnchor to={toWorks}>
                 <p>Works</p>
               </NavAnchor>
             </li>
             <li>
-              <NavAnchor href="#about">
+              <NavAnchor to={toAbout}>
                 <p>About</p>
               </NavAnchor>
             </li>
             <li>
-              <NavAnchor href="#contact-me">
+              <NavAnchor to={toContact}>
                 <p>Contact</p>
               </NavAnchor>
             </li>

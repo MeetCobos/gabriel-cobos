@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import styled from "styled-components";
 
 export const NavContainer = styled.nav<{ black?: boolean }>`
@@ -17,12 +18,12 @@ export const NavContent = styled.div`
   height: 100%;
 `;
 
-export const NavAnchor = styled.a`
+export const NavAnchor = styled(Link)`
   text-decoration: none;
   color: white;
 `;
 
-export const NavLogo = styled.a`
+export const NavLogo = styled(Link)`
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-size: 1.125rem;
