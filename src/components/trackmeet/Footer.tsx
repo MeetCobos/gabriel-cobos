@@ -7,7 +7,9 @@ export default function Footer() {
     <StyledFooter>
       <h3>Gabriel Cobos</h3>
       <p>Let's build something amazing.</p>
-      <StyledButton>Hire Me</StyledButton>
+      <a href="mailto:cobos@gabrielcobos.com">
+        <StyledButton>Hire Me</StyledButton>
+      </a>
     </StyledFooter>
   );
 }

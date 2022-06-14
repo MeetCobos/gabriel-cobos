@@ -9,7 +9,7 @@ export default function Works() {
   return (
     <>
       <GlobalStyles />
-      <Nav black toLanding="/#landing" toWorks="/#works" toAbout="/#about" toContact="/#contact-me"/>
+      <Nav black />
       <Landing />
       <Content />
       <Footer />
