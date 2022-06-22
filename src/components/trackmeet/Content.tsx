@@ -15,7 +15,7 @@ export default function Content() {
       <IntroSection>
         <div>
           <h3>Role</h3>
-          <p>Web Developer / Test Automation</p>
+          <p>Software Engineer / Test Automation</p>
         </div>
         <div>
           <h3>Date</h3>
@@ -24,8 +24,8 @@ export default function Content() {
         <div>
           <h3>Overview</h3>
           <p>
-            React/TS front end w/ Java/Spring back end, and Unit/Integration/E2E
-            testing.
+            React/TS front end with Java/Spring back end, and
+            Unit/Integration/E2E testing.
           </p>
         </div>
       </IntroSection>

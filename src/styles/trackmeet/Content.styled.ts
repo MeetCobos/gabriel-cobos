@@ -30,6 +30,10 @@ export const ContributionSection = styled.section`
   justify-content: space-evenly;
   align-items: center;
   height: 13.625rem;
+
+  & > p {
+    width: 40rem;
+  }
 `;
 
 export const CollageImg = styled.img`

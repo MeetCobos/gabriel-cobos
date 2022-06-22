@@ -4,6 +4,7 @@ import "@fontsource/libre-baskerville/700.css";
 import "@fontsource/montserrat/variable-italic.css";
 import "@fontsource/montserrat/variable.css";
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import AboutMe from "../components/index/AboutMeCard";
 import ContactMe from "../components/index/ContactMeCard";
@@ -16,6 +17,7 @@ import { AbsoluteContainer } from "../styles/SharedStyles.styled";
 const IndexPage = () => {
   return (
     <>
+      <Helmet title="Gabriel Cobos" />
       <GlobalStyles />
       <MainContainer>
         <AbsoluteContainer>
