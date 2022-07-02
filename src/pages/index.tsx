@@ -13,12 +13,14 @@ import Nav from "../components/Nav";
 import Trackmeet from "../components/index/TrackmeetCard";
 import GlobalStyles from "../styles/GlobalStyles.styled";
 import { AbsoluteContainer } from "../styles/SharedStyles.styled";
+import NavTabs from "../components/index/sub-components/NavTabs";
 
 const IndexPage = () => {
   return (
     <>
-      <Helmet title="Gabriel Cobos" />
+      <Helmet title="Gabriel Cobos | Software Engineer" />
       <GlobalStyles />
+      {/* <NavTabs /> */}
       <MainContainer>
         <AbsoluteContainer>
           <Nav />

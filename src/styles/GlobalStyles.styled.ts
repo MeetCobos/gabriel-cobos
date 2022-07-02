@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: gray black;
+  box-sizing: border-box;
 }
 
 *::-webkit-scrollbar {

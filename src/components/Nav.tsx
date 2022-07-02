@@ -15,7 +15,7 @@ export default function Nav({ black }: { black?: boolean }) {
     <NavContainer black={black}>
       <NavContent>
         <div>
-          <NavLogo to="/#landing">Gabriel Cobos</NavLogo>
+          <NavLogo to="/#home">Gabriel Cobos</NavLogo>
         </div>
         <div>
           <NavIcons>

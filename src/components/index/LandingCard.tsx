@@ -9,7 +9,7 @@ import {
 export default function Landing() {
   return (
     <LandingSection>
-      <HeroName id="landing">Gabriel Cobos</HeroName>
+      <HeroName id="home">Gabriel Cobos</HeroName>
       <HeroTitle>Web Developer</HeroTitle>
       <a href="mailto:cobos@gabrielcobos.com">
         <StyledButton>Contact Me</StyledButton>
