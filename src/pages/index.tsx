@@ -1,26 +1,26 @@
-import "@fontsource/abril-fatface";
-import "@fontsource/bebas-neue";
-import "@fontsource/libre-baskerville/700.css";
-import "@fontsource/montserrat/variable-italic.css";
-import "@fontsource/montserrat/variable.css";
-import * as React from "react";
-import { Helmet } from "react-helmet";
-import styled from "styled-components";
-import AboutMe from "../components/index/AboutMeCard";
-import ContactMe from "../components/index/ContactMeCard";
-import Landing from "../components/index/LandingCard";
-import Nav from "../components/Nav";
-import Trackmeet from "../components/index/TrackmeetCard";
-import GlobalStyles from "../styles/GlobalStyles.styled";
-import { AbsoluteContainer } from "../styles/SharedStyles.styled";
-import NavTabs from "../components/index/sub-components/NavTabs";
+import "@fontsource/abril-fatface"
+import "@fontsource/bebas-neue"
+import "@fontsource/libre-baskerville/700.css"
+import "@fontsource/montserrat/variable-italic.css"
+import "@fontsource/montserrat/variable.css"
+import * as React from "react"
+import { Helmet } from "react-helmet"
+import styled from "styled-components"
+import AboutMe from "../components/index/AboutMeCard"
+import ContactMe from "../components/index/ContactMeCard"
+import Landing from "../components/index/LandingCard"
+import Nav from "../components/Nav"
+import Trackmeet from "../components/index/TrackmeetCard"
+import GlobalStyles from "../styles/GlobalStyles.styled"
+import { AbsoluteContainer } from "../styles/SharedStyles.styled"
+import NavTabs from "../components/index/sub-components/NavTabs"
 
 const IndexPage = () => {
   return (
     <>
-      <Helmet title="Gabriel Cobos | Software Engineer" />
+      <Helmet title='Gabriel Cobos | Software Engineer' />
       <GlobalStyles />
-      {/* <NavTabs /> */}
+      <NavTabs />
       <MainContainer>
         <AbsoluteContainer>
           <Nav />
@@ -31,10 +31,10 @@ const IndexPage = () => {
         <ContactMe />
       </MainContainer>
     </>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
 
 const MainContainer = styled.div`
   height: 100vh;
@@ -47,4 +47,4 @@ const MainContainer = styled.div`
     height: 100vh;
     scroll-snap-align: start;
   }
-`;
+`

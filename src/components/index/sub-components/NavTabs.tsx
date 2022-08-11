@@ -1,32 +1,35 @@
-import { Link } from "gatsby";
-import React from "react";
-import { NavTabContainer } from "../../../styles/index/NavTab.styled";
+import { Link } from "gatsby"
+import React from "react"
+import {
+  NavButton,
+  NavTabContainer,
+} from "../../../styles/index/NavTabs.styled"
 
 export default function NavTabs() {
   return (
     <NavTabContainer>
       <ul>
         <li>
-          <Link to="/#home">
-            <span>Home</span>
+          <Link to='/#home'>
+            <NavButton>Home</NavButton>
           </Link>
         </li>
         <li>
-          <Link to="/#works">
-            <span>Works</span>
+          <Link to='/#works'>
+            <NavButton>Works</NavButton>
           </Link>
         </li>
         <li>
-          <Link to="/#about">
-            <span>About</span>
+          <Link to='/#about'>
+            <NavButton>About</NavButton>
           </Link>
         </li>
         <li>
-          <Link to="/#contact-me">
-            <span>Contact</span>
+          <Link to='/#contact-me'>
+            <NavButton>Contact</NavButton>
           </Link>
         </li>
       </ul>
     </NavTabContainer>
-  );
+  )
 }
