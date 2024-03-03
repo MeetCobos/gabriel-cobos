@@ -18,7 +18,7 @@
     "@fontsource/bebas-neue": "^4.5.7",
     "@fontsource/libre-baskerville": "^4.5.8",
     "@fontsource/montserrat": "^4.5.10",
-    "gatsby": "^4.6.2",
+    "gatsby": "^4.25.8",
     "gatsby-plugin-react-helmet": "^5.14.0",
     "gatsby-plugin-styled-components": "^5.13.0",
     "react": "^17.0.1",
