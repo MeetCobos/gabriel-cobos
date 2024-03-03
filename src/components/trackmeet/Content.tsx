@@ -15,17 +15,21 @@ export default function Content() {
       <IntroSection>
         <div>
           <h3>Role</h3>
-          <p>Software Engineer / Test Automation</p>
+          <p>Fullstack Software Engineer</p>
         </div>
         <div>
           <h3>Date</h3>
-          <p>June 2021 - Present</p>
+          <p>
+            June 2021 - March 2023
+            <br />
+            (1 yr. 9 mos.)
+          </p>
         </div>
         <div>
           <h3>Overview</h3>
           <p>
-            React/TS front end with Java/Spring back end, and
-            Unit/Integration/E2E testing.
+            Startup team of 4 developers; launched a job placement application
+            connecting military members to opportunities
           </p>
         </div>
       </IntroSection>
@@ -33,21 +37,23 @@ export default function Content() {
       <ContributionSection>
         <h3>Contributions</h3>
         <p>
-          - Built reusable components with React & Typescript
+          - Built several product features from start-to-end servicing all pages
+          of the application
           <br />
-          - Wrote automated tests garnering +90% test coverage
-          <br />- Lead training for 7 developers, created onboarding
-          documentation with tech specific coding challenges for React, Jest,
-          Bootstrap, and Styled-Components
+          - Wrote 100+ accessibility conscious tests maintaining +90% test
+          coverage
+          <br />- Championed best practices by overhauling application file
+          structure, improving code continuity, and refactored site wide CSS
+          styling
         </p>
       </ContributionSection>
       <CollageImg src={TrackmeetShowcase} alt='Trackmeet Showcase'></CollageImg>
       <SummarySection>
         <h3>Summary</h3>
         <p>
-          Championed best practices overhauled application file structure,
-          <br />
-          refactored site wide CSS, and wrote 100+ accessibility conscious tests
+          - React/TypeScript front end
+          <br />- Java/Spring back end
+          <br />- Jest & Cypress (Unit/Integration/E2E testing)
         </p>
       </SummarySection>
     </div>

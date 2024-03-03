@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-export const MainGrid = styled.div``;
+export const MainGrid = styled.div``
 
 export const IntroSection = styled.section`
   display: flex;
@@ -14,16 +14,16 @@ export const IntroSection = styled.section`
   }
 
   & p {
-    max-width: 20ch;
+    max-width: 25ch;
     margin-top: 1rem;
   }
-`;
+`
 
 export const MacImg = styled.img`
   display: block;
   margin-top: -100px;
   margin-inline: auto;
-`;
+`
 
 export const ContributionSection = styled.section`
   display: flex;
@@ -34,15 +34,15 @@ export const ContributionSection = styled.section`
   & > p {
     width: 40rem;
   }
-`;
+`
 
 export const CollageImg = styled.img`
   width: 100vw;
-`;
+`
 
 export const SummarySection = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 13.625rem;
-`;
+`
