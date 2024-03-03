@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const ImageFooterContainer = styled.div`
   display: flex;
@@ -14,15 +14,15 @@ export const ImageFooterContainer = styled.div`
   }
 
   & h1 {
-    font-size: 3rem;
+    font-size: min(3vw, 84px);
   }
 
   & h2 {
-    font-size: 1.125rem;
+    font-size: min(1.125vw, 36px);
   }
 
   & p {
     font-family: "Abril Fatface", serif;
-    font-size: 4.5rem;
+    font-size: min(4.5vw, 100px);
   }
-`;
+`

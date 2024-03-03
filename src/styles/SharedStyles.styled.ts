@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const StyledButton = styled.button`
-  width: 7.125rem;
-  height: 2.1875rem;
+  /* width: min(7.125vw, ); */
+  padding: min(0.5vw, 12px) min(7.125vw, 14px);
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875rem;
+  font-size: min(0.875vw, 20px);
   font-weight: 600;
   background-color: #f10000;
   border: none;
@@ -18,18 +18,18 @@ export const StyledButton = styled.button`
   &:active {
     background-color: hsl(0, 100%, 33%);
   }
-`;
+`
 
 export const CenteredButton = styled(StyledButton)`
   margin-inline: auto;
-`;
+`
 
 export const Section = styled.section`
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
-`;
+`
 
 export const AbsoluteCenter = styled.div`
   display: flex;
@@ -39,26 +39,27 @@ export const AbsoluteCenter = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-`;
+`
 
 export const AbsoluteContainer = styled.div`
   position: absolute;
-`;
+`
 
 export const PageLabel = styled.label`
   font-family: "Bebas Neue", sans-serif;
-  font-size: 4rem;
-`;
+  font-size: min(5vw, 112px);
+`
 
 export const PageImg = styled.img`
-  height: 86vh;
+  max-height: 86vh;
+  max-width: 80vw;
   filter: blur(3.5px);
-`;
+`
 
 export const LandingContainer = styled.div`
   display: flex;
-  background: linear-gradient(#04138a, #1c1d25);
+  background: var(--linear-background);
   align-items: center;
   justify-content: flex-end;
   gap: 0.5rem;
-`;
+`

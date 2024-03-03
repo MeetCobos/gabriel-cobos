@@ -1,12 +1,12 @@
-import React from "react";
-import PdfResume from "../../docs/PDFResume.pdf";
-import Resume from "../../images/Resume.svg";
+import React from "react"
+import PdfResume from "../../docs/PDFResume.pdf"
+import Resume from "../../images/Resume.svg"
 import {
   IntroSection,
   ResumeSvg,
   StyledDownload,
-} from "../../styles/about/Content.styled";
-import { StyledButton } from "../../styles/SharedStyles.styled";
+} from "../../styles/about/Content.styled"
+import { StyledButton } from "../../styles/SharedStyles.styled"
 
 export default function Content() {
   return (
@@ -20,12 +20,12 @@ export default function Content() {
           product I can.
         </p>
       </IntroSection>
-      <ResumeSvg src={Resume} alt="Resume"></ResumeSvg>
+      <ResumeSvg src={Resume} alt='Resume'></ResumeSvg>
       <StyledDownload>
         <a href={PdfResume} download>
           <StyledButton>Export PDF</StyledButton>
         </a>
       </StyledDownload>
     </>
-  );
+  )
 }

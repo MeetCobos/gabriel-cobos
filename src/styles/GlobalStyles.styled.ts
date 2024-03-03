@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
 * {
@@ -21,6 +21,10 @@ const GlobalStyles = createGlobalStyle`
 *::-webkit-scrollbar-thumb {
   background-color: grey;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+:root {
+  --linear-background: linear-gradient(#0919a0, #030620);
 }
 
 html:lang(en) {
@@ -49,8 +53,9 @@ p {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles

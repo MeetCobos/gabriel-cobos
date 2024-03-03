@@ -33,6 +33,10 @@ export default function NavTabs({ curCard }: { curCard: CurCardType }) {
 }
 
 const NavTabContainer = styled.nav`
+  @media (max-width: 1300px) {
+    display: none;
+  }
+
   position: absolute;
   top: 50%;
   left: 1rem;

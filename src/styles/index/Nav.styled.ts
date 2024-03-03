@@ -1,14 +1,14 @@
-import { Link } from "gatsby";
-import styled from "styled-components";
+import { Link } from "gatsby"
+import styled from "styled-components"
 
 export const NavContainer = styled.nav<{ black?: boolean }>`
   background-color: ${({ black }) => black && "black"};
-  position: sticky;
+  position: absolute;
+  top: 0;
+  inset: 0;
   height: 4rem;
-  width: 100vw;
-  max-width: 100%;
   z-index: 2;
-`;
+`
 
 export const NavContent = styled.div`
   display: flex;
@@ -16,12 +16,12 @@ export const NavContent = styled.div`
   align-items: center;
   margin-inline: 1rem;
   height: 100%;
-`;
+`
 
 export const NavAnchor = styled(Link)`
   text-decoration: none;
   color: white;
-`;
+`
 
 export const NavLogo = styled(Link)`
   font-family: "Libre Baskerville", serif;
@@ -29,10 +29,15 @@ export const NavLogo = styled(Link)`
   font-size: 1.125rem;
   color: white;
   text-decoration: none;
-`;
+`
 
 export const NavIcons = styled.ul`
-  & > li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-end;
+
+  & li {
     list-style: none;
     display: inline-block;
   }
@@ -44,7 +49,7 @@ export const NavIcons = styled.ul`
     color: white;
   }
 
-  & > li:not(:first-child) {
+  & li:not(:first-child) {
     margin-left: 1rem;
   }
-`;
+`

@@ -13,7 +13,6 @@ import NavTabs from "../components/index/sub-components/NavTabs"
 import TrackmeetCard from "../components/index/TrackmeetCard"
 import Nav from "../components/Nav"
 import GlobalStyles from "../styles/GlobalStyles.styled"
-import { AbsoluteContainer } from "../styles/SharedStyles.styled"
 
 export type CurCardType = {
   landing: boolean
@@ -80,9 +79,7 @@ const IndexPage = () => {
       <GlobalStyles />
       <NavTabs curCard={curCard} />
       <MainContainer>
-        <AbsoluteContainer>
-          <Nav />
-        </AbsoluteContainer>
+        <Nav />
         <LandingCard ref={landingRef} />
         <TrackmeetCard ref={trackmeetRef} />
         <AboutMeCard ref={aboutMeRef} />
@@ -96,7 +93,7 @@ export default IndexPage
 
 const MainContainer = styled.div`
   height: 100vh;
-  background: linear-gradient(#0919a0, #030620);
+  background: var(--linear-background);
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   color: white;
