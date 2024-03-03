@@ -96,7 +96,7 @@ export default IndexPage
 
 const MainContainer = styled.div`
   height: 100vh;
-  background: linear-gradient(#04138a, #1c1d25);
+  background: linear-gradient(#0919a0, #030620);
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   color: white;
