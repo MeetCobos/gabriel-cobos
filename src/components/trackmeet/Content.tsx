@@ -3,10 +3,9 @@ import TrackmeetOnMac from "../../images/TrackmeetOnMac.svg"
 import TrackmeetShowcase from "../../images/TrackmeetShowcase.svg"
 import {
   CollageImg,
-  ContributionSection,
+  InfoSection,
   IntroSection,
   MacImg,
-  SummarySection,
 } from "../../styles/trackmeet/Content.styled"
 
 export default function Content() {
@@ -34,7 +33,7 @@ export default function Content() {
         </div>
       </IntroSection>
       <MacImg src={TrackmeetOnMac} alt='Trackmeet on Mac Desktop'></MacImg>
-      <ContributionSection>
+      <InfoSection>
         <h3>Contributions</h3>
         <p>
           - Built several product features from start-to-end servicing all pages
@@ -46,16 +45,16 @@ export default function Content() {
           structure, improving code continuity, and refactored site wide CSS
           styling
         </p>
-      </ContributionSection>
+      </InfoSection>
       <CollageImg src={TrackmeetShowcase} alt='Trackmeet Showcase'></CollageImg>
-      <SummarySection>
+      <InfoSection>
         <h3>Summary</h3>
         <p>
           - React/TypeScript front end
           <br />- Java/Spring back end
           <br />- Jest & Cypress (Unit/Integration/E2E testing)
         </p>
-      </SummarySection>
+      </InfoSection>
     </div>
   )
 }

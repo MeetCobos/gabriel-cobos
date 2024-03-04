@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const IntroSection = styled.section`
   text-align: center;
-  height: 19.75rem;
+  padding-bottom: 2rem;
   background-color: #f2f4f5;
 
   & h3 {
@@ -18,7 +18,8 @@ export const IntroSection = styled.section`
 
 export const ResumeSvg = styled.img`
   display: block;
-  margin-top: -100px;
+  max-width: 90vw;
+  margin-top: -1rem;
   margin-inline: auto;
   border: 1px solid black;
   box-shadow: 3px 3px 10px black;

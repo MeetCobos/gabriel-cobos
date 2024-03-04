@@ -6,11 +6,11 @@ import {
   ResumeSvg,
   StyledDownload,
 } from "../../styles/about/Content.styled"
-import { StyledButton } from "../../styles/SharedStyles.styled"
+import { PageContent, StyledButton } from "../../styles/SharedStyles.styled"
 
 export default function Content() {
   return (
-    <>
+    <div>
       <IntroSection>
         <h3>Passionate, Dynamic, Focused</h3>
         <p>
@@ -26,6 +26,6 @@ export default function Content() {
           <StyledButton>Export PDF</StyledButton>
         </a>
       </StyledDownload>
-    </>
+    </div>
   )
 }

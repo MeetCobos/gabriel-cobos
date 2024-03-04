@@ -5,7 +5,7 @@ export const MainGrid = styled.div``
 export const IntroSection = styled.section`
   display: flex;
   justify-content: space-evenly;
-  height: 19.75rem;
+  padding-bottom: 2rem;
   background-color: #f2f4f5;
   text-align: center;
 
@@ -21,18 +21,20 @@ export const IntroSection = styled.section`
 
 export const MacImg = styled.img`
   display: block;
-  margin-top: -100px;
+  margin-top: -1rem;
   margin-inline: auto;
+  max-width: 90vw;
 `
 
-export const ContributionSection = styled.section`
+export const InfoSection = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 13.625rem;
+  margin: clamp(1rem, 5vw + 1rem, 5.5rem) 1rem;
 
   & > p {
-    width: 40rem;
+    margin-left: 2rem;
+    max-width: 40rem;
   }
 `
 
@@ -44,5 +46,5 @@ export const SummarySection = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 13.625rem;
+  padding-block: 1rem;
 `
