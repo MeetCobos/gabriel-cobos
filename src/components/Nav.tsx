@@ -10,9 +10,9 @@ import {
   NavLogo,
 } from "../styles/index/Nav.styled"
 
-export default function Nav({ black }: { black?: boolean }) {
+export default function Nav() {
   return (
-    <NavContainer black={black}>
+    <NavContainer>
       <NavContent>
         <div>
           <NavLogo to='/#home'>Gabriel Cobos</NavLogo>

@@ -1,8 +1,7 @@
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-export const NavContainer = styled.nav<{ black?: boolean }>`
-  background-color: ${({ black }) => black && "black"};
+export const NavContainer = styled.nav`
   position: absolute;
   height: fit-content;
   top: 0.875rem;
