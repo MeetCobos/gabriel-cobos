@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { CurCardType } from "../../../pages/index"
 
 export default function NavTabs({ curCard }: { curCard: CurCardType }) {
@@ -55,11 +55,15 @@ const NavTabContainer = styled.nav`
 const NavButton = styled.button<{ curCard: boolean }>`
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.875rem;
+  font-size: var(--font-size-xs);
   background: none;
   border: none;
 
-  font-size: ${({ curCard }) => curCard && "1.5rem"};
+  ${({ curCard }) =>
+    curCard &&
+    css`
+      font-size: var(--font-size-l);
+    `};
   font-weight: ${({ curCard }) => curCard && 700};
   transition: font-size 0.1s, font-weight 0.1s;
 

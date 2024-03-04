@@ -2,9 +2,9 @@ import styled from "styled-components"
 
 export const StyledButton = styled.button`
   /* width: min(7.125vw, ); */
-  padding: min(0.5vw, 12px) min(7.125vw, 14px);
+  padding: 0.35em 0.65em;
   font-family: "Montserrat", sans-serif;
-  font-size: min(0.875vw, 20px);
+  font-size: clamp(var(--font-size-s), 0.875vw + 1rem, 20px);
   font-weight: 600;
   background-color: #f10000;
   border: none;
@@ -33,6 +33,7 @@ export const Section = styled.section`
 
 export const AbsoluteCenter = styled.div`
   display: flex;
+  width: 100%;
   flex-direction: column;
   position: absolute;
   text-align: center;
@@ -47,7 +48,7 @@ export const AbsoluteContainer = styled.div`
 
 export const PageLabel = styled.label`
   font-family: "Bebas Neue", sans-serif;
-  font-size: min(5vw, 112px);
+  font-size: clamp(var(--font-size-l), 5vw + 1rem, 112px);
 `
 
 export const PageImg = styled.img`

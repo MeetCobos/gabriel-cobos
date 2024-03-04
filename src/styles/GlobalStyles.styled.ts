@@ -25,6 +25,11 @@ const GlobalStyles = createGlobalStyle`
 
 :root {
   --linear-background: linear-gradient(#0919a0, #030620);
+  --font-size-xs: 0.875rem;
+  --font-size-s: 1rem;
+  --font-size-m: 1.125rem;
+  --font-size-l: 1.5rem;
+  --font-size-xl: 4.5rem;
 }
 
 html:lang(en) {
@@ -44,12 +49,12 @@ h2 {
 h3 {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: var(--font-size-l);
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.125rem;
+  font-size: var(--font-size-m);
 }
 
 img {

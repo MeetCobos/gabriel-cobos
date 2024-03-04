@@ -26,7 +26,7 @@ export const NavAnchor = styled(Link)`
 export const NavLogo = styled(Link)`
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: var(--font-size-m);
   color: white;
   text-decoration: none;
 `
@@ -44,7 +44,7 @@ export const NavIcons = styled.ul`
 
   & p {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.125rem;
+    font-size: var(--font-size-m);
     font-weight: 600;
     color: white;
   }

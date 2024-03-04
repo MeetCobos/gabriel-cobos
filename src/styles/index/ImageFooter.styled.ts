@@ -14,15 +14,15 @@ export const ImageFooterContainer = styled.div`
   }
 
   & h1 {
-    font-size: min(3vw, 84px);
+    font-size: clamp(var(--font-size-s), 3.5vw + 1rem, 84px);
   }
 
   & h2 {
-    font-size: min(1.125vw, 36px);
+    font-size: clamp(var(--font-size-xs), 0.25vw + 1rem, 36px);
   }
 
   & p {
     font-family: "Abril Fatface", serif;
-    font-size: min(4.5vw, 100px);
+    font-size: clamp(var(--font-size-l), 4.5vw + 1rem, 100px);
   }
 `
