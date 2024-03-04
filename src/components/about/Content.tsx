@@ -6,7 +6,7 @@ import {
   ResumeSvg,
   StyledDownload,
 } from "../../styles/about/Content.styled"
-import { PageContent, StyledButton } from "../../styles/SharedStyles.styled"
+import { StyledButton } from "../../styles/SharedStyles.styled"
 
 export default function Content() {
   return (
