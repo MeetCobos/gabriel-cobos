@@ -7,7 +7,7 @@ export const ImageFooterContainer = styled.div`
   width: 107%;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 1%;
+  bottom: -1%;
 
   & > * {
     text-align: center;

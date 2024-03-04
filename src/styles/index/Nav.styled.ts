@@ -4,9 +4,10 @@ import styled from "styled-components"
 export const NavContainer = styled.nav<{ black?: boolean }>`
   background-color: ${({ black }) => black && "black"};
   position: absolute;
-  top: 0;
-  inset: 0;
-  height: 4rem;
+  height: fit-content;
+  top: 0.875rem;
+  left: 0;
+  right: 0;
   z-index: 2;
 `
 
@@ -15,7 +16,6 @@ export const NavContent = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-inline: 1rem;
-  height: 100%;
 `
 
 export const NavAnchor = styled(Link)`
@@ -34,10 +34,10 @@ export const NavLogo = styled(Link)`
 export const NavIcons = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  row-gap: 1rem;
   justify-content: flex-end;
 
-  & li {
+  & > li {
     list-style: none;
     display: inline-block;
   }
@@ -49,7 +49,7 @@ export const NavIcons = styled.ul`
     color: white;
   }
 
-  & li:not(:first-child) {
+  & > li:not(:first-child) {
     margin-left: 1rem;
   }
 `
